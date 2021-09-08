@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+
 namespace EntityFrameworkWrapperTest
 {
     public static class DbSetExtensions

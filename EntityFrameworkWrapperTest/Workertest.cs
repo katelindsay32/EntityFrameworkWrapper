@@ -22,7 +22,7 @@ namespace EntityFrameworkWrapperTest
         public void TestMethod1()
         {
             Worker worker = new Worker(contextFactory.Object);
-            Mock<DbContext> dbContext = new Mock<DbContext>();
+            Mock<EntityContext> dbContext = new Mock<EntityContext>();
             contextFactory.Setup(f => f.GetDbContext()).Returns(dbContext.Object);
 
             Entity2 entity2 = new Entity2()
